@@ -2,5 +2,5 @@ version : "3.0"
 
 services:
   python-app: # 서비스명
-    image : $hjin7/ossp_week9
+    image : ${DOCKER_USR}/OSSP_week12
     build : .
